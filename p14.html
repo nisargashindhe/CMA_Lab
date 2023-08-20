@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML5 Canvas</h1>
+<h2>The rect() Method</h2>
+
+<canvas id="myCanvas" width="300" height="145" style="border:1px solid red"></canvas>
+<script>
+const c = document.getElementById("myCanvas");
+const ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.rect(20, 20, 250, 100);
+ctx.stroke();
+</script>
+<script>
+ctx.beginPath();
+ctx.moveTo(0, 0);
+ctx.lineTo(300, 150);
+ctx.strokeStyle ="red";
+ctx.stroke();
+</script>
+
+
+</body>
+</html>
